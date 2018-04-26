@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "author": "Scott",
   "license": "MIT",
-  "homepage": " https://scott-a-abbott.github.io/create-react-portfolio/",
   "dependencies": {
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",

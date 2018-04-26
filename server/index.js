@@ -6,7 +6,7 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 // const config = require("./config");
 
-const {USER, PASS} = process.env;
+const {USER, PASS, SERVER_PORT} = process.env;
 
 const app = express()
 app.use(cors());
@@ -48,10 +48,10 @@ app.post('/api/contact', (req, res) => {
 });
 
 app.get('*', (req, res)=>{
-  res.sendFile(path.join(__dirname, '../build/index.html'));
+  res.sendFile(path.join(__dirname, '/../build/index.html'));
 });
 
-const PORT = 4000;
+const PORT = SERVER_PORT || 4000;
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);

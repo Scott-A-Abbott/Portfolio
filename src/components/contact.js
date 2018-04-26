@@ -61,7 +61,7 @@ export default class Contact extends Component {
       setTimeout(()=>{
         this.submitCheck, 5000
       });
-      axios.post('http://localhost:4000/api/contact', {name, email, subject, message}).then( resp => {
+      axios.post('/api/contact', {name, email, subject, message}).then( resp => {
         this.updateState(resp);
       }).catch( err => {
         this.errorResponse(err);
