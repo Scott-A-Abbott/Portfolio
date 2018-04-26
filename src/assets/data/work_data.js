@@ -25,7 +25,7 @@ export default [
         img: aquest,    
         alt: 'AQuest',
         codeLink: "https://github.com/AQuestClone/AQuestClone",
-        demoLink: "demo"
+        demoLink: "https://aquest-clone.devmtn-projects.com/"
     },
     // {
     //     name: 'Match Two!',
