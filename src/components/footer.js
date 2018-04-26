@@ -17,9 +17,7 @@ export default props =>{
                   <div className="footer-links">
                     <a className="" target="_blank" href="https://github.com/Scott-A-Abbott"><img id="github-logo" src={githubLogo} alt="Github" /><br/>Github</a>
                   </div>
-                <div className="footer-links">
-                    <a className="" target="_blank" href="https://docs.google.com/document/d/1CzvOXd56Km6YMDO_ldm2RHoGiFP5NV4w6M4SVmdgWjA/edit?usp=sharing"><i className="medium material-icons">description</i><br/>Resume</a>
-                </div>
+                
                 <div className="footer-links">
                     <a target="_blank" href="https://www.linkedin.com/in/scottabbottprofile/"><img id="linkedin-logo" src={linkedinLogo} alt="LinkedIn" /><br/>LinkedIn</a>
                 </div>
