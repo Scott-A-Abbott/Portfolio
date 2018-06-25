@@ -5,6 +5,7 @@ import matchTwo from '../images/work/match_two.png';
 import portfolio from '../images/work/create_react_portfolio.png';
 import wirtanen from '../images/work/wirtanen-demo.png';
 import aquest from '../images/work/aquest.png';
+import slack from '../images/work/slack_clone.PNG';
 import React from 'react'
 
 export default [
@@ -27,6 +28,14 @@ export default [
         codeLink: "https://github.com/AQuestClone/AQuestClone",
         demoLink: "https://aquest-clone.devmtn-projects.com/"
     },
+    {
+        name: 'Slack Clone',
+        info: 'After graduating from DevMountain, I started a project with a former mentor and a few other former classmates. Tommy (the mentor) had laid out much of the groundwork for a clone of Slack. The rest of us were brought in to flesh it out, finalize some features, and bring it to a finished form. We used Meiosis as a pattern for keeping track of our state. It was a more light-weight alternative to Redux. Aphrodite-JSS was the library we implemented to pursue CSS in JS and elimnate the need for CSS files. Bcrypt was utilized to salt and hash passwords on our backend.',
+        img: slack,
+        alt: 'Slack-Clone',
+        codeLink: 'https://github.com/Tommydreamer57/cell',
+        demoLink: 'https://meiosis.thomaslowry.me/'
+    }
     // {
     //     name: 'Match Two!',
     //     info: 'Match Two! is a comic book themed, memory match game. This project was built using jQuery, Bootstrap, scalable vector graphics (SVG), Photoshop, and Illustrator.',
