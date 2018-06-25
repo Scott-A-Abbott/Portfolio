@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../node_modules/materialize-css/dist/css/materialize.min.css';
 import '../node_modules/materialize-css/dist/js/materialize.min.js';
 
-import 'glamor/reset';
 import './App.css';
 
 import NavBar from './components/navbar';
