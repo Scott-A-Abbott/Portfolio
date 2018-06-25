@@ -189,7 +189,7 @@ export default class Contact extends Component {
               <textarea id="textArea1" className="materialize-textarea validate" type="text" placeholder="Message" value={message} name="message" onChange={e => this.setState({message: e.target.value})}/>
             </div>
           </div>
-        <button className={`btn waves-effect waves-light ${blackBack}`} type="submit" name="action">Submit<i className="material-icons right">send</i>
+        <button className={`btn waves-effect waves-light ${whiteHover}`} type="submit" name="action">Submit<i className="material-icons right">send</i>
         </button>
         {submitResult}
           </form>
@@ -201,7 +201,7 @@ export default class Contact extends Component {
 }
  
 
-const blackBack = css({
+const whiteHover = css({
   ':hover':{
       backgroundColor: 'white',
       color: '#06b700'
